@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echarts-rocco</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>roccoshi-ECharts</h1>
+        <div class="showTime"></div>
+    </header>
+
+
+    <!-- 页面主体部分 -->
+    <section class="mainbox">
+        <!-- 左边盒子 -->
+        <div class="column">
+            <!-- 柱形图 -->
+            <div class="panel bar">
+                <h2>Bar-Employment</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <!-- 折线图 -->
+            <div class="panel line">
+                <h2>
+                    Bar-Employment
+                    <a href="javascript:;" id='a1'>2019</a>
+                    <a href="javascript:;" id='a2'>2020</a>
+                </h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <!-- 饼形图 -->
+            <div class="panel pie">
+                <h2>Bar-Employment</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+
+        <!-- 中间盒子 -->
+        <div class="column">
+            <!-- no模块制作 -->
+            <div class="no">
+                <div class="no-hd">
+                    <ul>
+                        <li>123123</li>
+                        <li>11111</li>
+                    </ul>
+                </div>
+                <div class="no-bd">
+                    <ul>
+                        <li>people - need</li>
+                        <li>people - provide</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 地图模块 -->
+            <div class="map">
+                <div class="map1">
+                    <!-- 球体模块 -->
+                </div>
+                <div class="map2">
+                    <!-- 旋转模块 顺时针 -->
+                </div>
+                <div class="map3">
+                    <!-- 旋转模块 逆时针-->
+                </div>
+                <div class="chart">
+                    <!-- 地图模块 -->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 右侧盒子 -->
+        <div class="column">
+            <!-- 柱形图 -->
+            <div class="panel bar2">
+                <h2>Bar-Employment</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <!-- 折线图 -->
+            <div class="panel line2">
+                <h2>Bar-Employment</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <!-- 饼形图 -->
+            <div class="panel pie2">
+                <h2>Bar-Employment</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- js文件 -->
+    <script src="js/flexible.js"></script>
+    <script src="js/time.js"></script>
+    <script src='js/jquery.js'></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/planeMap.js"></script>
+</body>
+
+</html>
